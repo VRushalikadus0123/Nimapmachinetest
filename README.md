@@ -6,13 +6,13 @@ This is a Spring Boot application developed as part of a machine test. The appli
 
 ## 🚀 Technologies Used
 
-- Java 17 (or compatible version)
+- Java 
 - Spring Boot
 - Spring Data JPA
 - Hibernate
 - MySQL (RDBMS)
 - RESTful Web Services
-- Maven
+- Spring Starter project
 
 ---
 
