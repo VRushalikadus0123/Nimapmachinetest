@@ -48,10 +48,12 @@ This is a Spring Boot application developed as part of a machine test. The appli
 **Database Used:** MySQL  
 Update the credentials and database name in `application.properties`:
 ```properties
+
+pring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:mysql://localhost:3306/Nimapmachinetest
 spring.datasource.username=root
 spring.datasource.password=root
+spring.datasource.driver-cl ass-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql: true
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+server.port=8080
