@@ -2,7 +2,7 @@
 
 This is a Spring Boot application developed as part of a machine test. The application implements CRUD operations for **Category** and **Product** entities, including a **one-to-many relationship** (One Category → Many Products). It also includes **server-side pagination** and uses **MySQL** as the database.
 
----
+---    
 
 ## 🚀 Technologies Used
 
